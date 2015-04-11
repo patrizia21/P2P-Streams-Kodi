@@ -9,7 +9,7 @@
 	<string id="30016">[COLOR blue]Configuración general[/COLOR]</string>
 	<string id="30001">Descargar módulos en el arranque</string>
 	<string id="40107">Forzar la detección como sistema Android</string>
-	<string id="40114">- Website-Parsers</string>
+	<string id="40114">- Analizadores de sitios web</string>
 	<string id="600013">Zona horaria</string>
 	<string id="40111">Detectar como plataforma OpenELEC x86_64</string>
 	<string id="40100">Ocultar canales para adultos</string>
@@ -25,34 +25,34 @@
 	<string id="30005">Retraso del reproductor</string>
 	<string id="30009">Activar la depuración de errores</string>
 	<string id="40198">Máx. tiempo de espera para la creación del servidor</string>
-	<string id="40199">Máx. tiempo de espera para la reproducción del canal</string>
+	<string id="40199">Máx. tiempo de espera para la carga de flujo</string>
 	<string id="30018">[COLOR blue]Configuración de AceStream[/COLOR]</string>
 	<string id="40152">Tipo de reproductor</string>
 	<string id="40108">Puerto de conexión (motor)</string>
 	<string id="40153">Puerto de conexión (reproductor)</string>
 	<string id="30010">Activar la pausa automática</string>
-	<string id="30011">Ruta/comando alternativo para el motor de AceStream</string>
+	<string id="30011">Ruta/orden alternativa para el motor de AceStream</string>
 	<string id="30012">Guardar los archivos descargados en el disco</string>
 	<string id="30013">Ruta para la descarga...</string>
 	<string id="30015">Cerrar el motor de AceStream si cesa el flujo</string>
 	<string id="49999">Mostrar el estado del motor de AceStream en pantalla</string>
 	<string id="49998">Activar la depuración de errores</string>
 	<string id="70002">Modo de parada</string>
-	<string id="400000">Listas/Parsers</string>
+	<string id="400000">Listas/Analizadores</string>
 	<string id="400001">Listas</string>
 	<string id="40134">Activar la lista oficial de SopCast.org</string>
-	<string id="400002">Parsers</string>
+	<string id="400002">Analizadores</string>
 	<string id="400003">Ejecutar script en phyton...</string>
-	<string id="400004">Sincronizar parsers</string>
-	<string id="400005">Activar la sincronización automática de parsers</string>
+	<string id="400004">Sincronizar analizadores</string>
+	<string id="400005">Activar la sincronización automática de analizadores</string>
 	<string id="400006">Intervalo entre sincronizaciones automáticas</string>
 	<string id="70009">Forzar el uso de DVD Player como reproductor en AceStream y SopCast</string>
-	<string id="70010">Comando alternativo</string>
+	<string id="70010">Orden alternativa</string>
 	<string id="70036">- Historial</string>
-	<string id="70037">Activar el Historial</string>
+	<string id="70037">Activar el historial</string>
 	<string id="70038">Número de elementos a guardar</string>
 	<string id="70039">Borrar el historial</string>
-	<string id="70040">Ir a la lista de parsers en el arranque</string>
+	<string id="70040">Ir a la lista de analizadores en el arranque</string>
 	
 	<!-- Default.py -->
 	<string id="40115">- Listas XML</string>
@@ -71,10 +71,10 @@
 	<string id="40180">(Windows) ¡SopCast no se ha configurado!</string>
 	<string id="40181">Activar "Descargar módulos en el arranque" en la configuración del add-on</string>
 	<string id="40182">y reinícielo (¡cómo administrador!)</string>
-	<string id="40183">SopCast - Comprobando si se ha creado el servidor. Espere...</string>
-	<string id="40184">El servidor se ha creado. Intentando cargar...</string>
+	<string id="40183">SopCast - Verificando si se ha creado el servicio. Espere...</string>
+	<string id="40184">El servidor se ha creado. Intentando reproducir...</string>
 	<string id="40040">Falló la iniciación del canal</string>
-	<string id="40039">Cargando canal. Espere hasta 20 segundos.</string>
+	<string id="40039">Cargando flujo. Espere hasta 20 segundos.</string>
 	<string id="40187">Esperando hasta que se agote el tiempo...</string>
 	<string id="70000">Una instancia de SopCast sigue ejecutándose en segundo plano</string>
 	<string id="70001">¿Desea que siga?</string>
@@ -97,13 +97,13 @@
 	<string id="1011">No se ha obtenido respuesta</string>
 	<string id="1103">Comprobando datos</string>
 	<string id="1100">Prealmacenamiento en búfer</string>
-	<string id="50010">Descargando flujo</string>
-	<string id="50008">Almacenando en búfer</string>
+	<string id="50010">descarga de flujo</string>
+	<string id="50008">almacenamiento en búfer</string>
 	
 	<!-- Overlaytext -->
 	<string id="50000">Motor de AceStream</string>
 	<string id="50005">Estadísticas</string>
-	<string id="50001">Acción:</string>
+	<string id="50001">Tarea:</string>
 	<string id="50002">Descarga:</string>
 	<string id="50003">Subida:</string>
 	<string id="50004">Semillas:</string>
@@ -119,7 +119,7 @@
 	<string id="40038">El archivo torrent no está disponible o no es válido</string>
 	
 	<!-- autoconf.py -->
-	<string id="400007">No se ha podido detectar su sistema operativo</string>
+	<string id="400007">No se ha podido detectar el sistema operativo</string>
 	<string id="400008">Selecciónelo de la lista</string>
 	<string id="40025">Descargando los módulos de SopCast</string>
 	<string id="40026">Descargando los módulos de AceStream</string>
@@ -128,26 +128,26 @@
 	<string id="40112">Descargando los módulos de SopCast y AceStream</string>
 	<string id="40113">¿Está utilizando OpenELEC x86_x64?</string>
 	<string id="600023">¿Está utilizando OpenELEC i386?</string>
-	<string id="40027">(Linux) Necesita instalar el motor de AceStream manualmente</string>
+	<string id="40027">(Linux) Se necesita instalar el motor de AceStream manualmente</string>
 	<string id="40028">Tutorial:</string>
 	<string id="40029">Siga el tutorial y pruebe de nuevo</string>
-	<string id="40158">Kodi se tiene que ejecutar en sistemas Windows</string>
+	<string id="40158">En sistemas Windows Kodi tiene que ejecutarse</string>
 	<string id="40159">como administrador para configurar SopCast</string>
-	<string id="40160">Comprobando si SopCast se encuentra instalado...</string>
+	<string id="40160">Verificando si SopCast se encuentra instalado...</string>
 	<string id="40161">¡Listo!</string>
 	<string id="40162">¡SopCast no está instalado!</string>
 	<string id="40163">¡Descárguelo de SopCast.org e instálelo!</string>
 	<string id="40164">Obteniendo las ID de los usuarios de Windows...</string>
-	<string id="40165">No ha sido posible obtener la lista de usuarios</string>
+	<string id="40165">No se ha podido obtener la lista de usuarios</string>
 	<string id="40166">Iniciando la descarga de SRVany...</string>
 	<string id="40167">Descargando SRVany...</string>
 	<string id="40168">Creando el servicio "sopcastp2p"...</string>
 	<string id="40169">¡No se ha podido crear el servicio!</string>
 	<string id="40170">Modificando regedit...</string>
 	<string id="40171">Error: no se ha podido modificar regedit</string>
-	<string id="40172">Tratando de establecer los permisos del servicio...</string>
+	<string id="40172">Tratando de obtener los permisos del servicio...</string>
 	<string id="40173">Error: no se han podido cambiar los permisos</string>
-	<string id="40174">Intentando establecer los permisos del servicio...</string>
+	<string id="40174">Intentando definir los permisos del servicio...</string>
 	<string id="40175">Error: no se han podido cambiar los permisos del servicio</string>
 	<string id="40176">Iniciando la descarga del archivo de permisos...</string>
 	<string id="40177">Descargando el archivo de permisos (Regini)...</string>
@@ -188,14 +188,14 @@
 	<string id="40063">Hacer copia de seguridad del archivo advancedsettings.xml</string>
 	<string id="40065">Borrar el archivo advancedsettings.xml</string>
 	<string id="40061">Restaurar la copia de seguridad del archivo advancedsettings.xml</string>
-	<string id="40067">Valor actual de "cachemembuffersize"      [</string>
+	<string id="40067">Valor de "cachemembuffersize"      [</string>
 	<string id="600015">Puerto</string>
 	<string id="600016">Duración del almacenamiento para vídeo bajo demanda ([I]VOD buffer[/I]) (s)</string>
 	<string id="600017">Duración del almacenamiento para vídeo en vivo ([I]Live buffer[/I]) (s)</string>
 	<string id="600018">Máxima velocidad de descarga (Kb/s) (0=sin límite)</string>
 	<string id="600019">Máxima velocidad de subida (Kb/s) (0=sin límite)</string>
 	<string id="600020">Número máximo de conexiones (0=sin límite)</string>
-	<string id="600021">Número máximo de conexiones por canal (0=sin límites)</string>
+	<string id="600021">Número máximo de conexiones por flujo (0=sin límites)</string>
 	<string id="70003">Borrar la caché del motor</string>
 	<string id="600027">Vuelva a configurar para obtener los nuevos módulos</string>
 	<string id="40185">Seleccione uno de los ajustes</string>
@@ -214,10 +214,10 @@
 	<string id="70025">Función para forzar la parada de P2P-Streams:</string>
 	<string id="70026">Aplicar la función de parada personalizada</string>
 	<string id="70027">¿Desea sustituir el botón de parada del skin por la función de parada personalizada?</string>
-	<string id="70028">Skin actual:</string>
-	<string id="70029">Esto se aplicará solamente a la skin actual</string>
-	<string id="70030">Si se actualiza quizá necesite repetir este procedimiento</string>
-	<string id="70031">¡Si desinstala el add-on, necesitará revertir estos cambios; en caso contrario, la funcion de parada de Kodi no funcionará!</string>
+	<string id="70028">Skin que se está utilizando:</string>
+	<string id="70029">Esto se aplicará solamente a la skin que se está utilizando</string>
+	<string id="70030">Si se actualiza quizá se necesite repetir este procedimiento</string>
+	<string id="70031">¡Si se desinstala el add-on se necesitará revertir estos cambios; en caso contrario la funcion de parada por defecto se bloqueará!</string>
 	<string id="70032">¿Está seguro de querer continuar?</string>
 	<string id="70033">¿Desea asignar la función de parada a una tecla de su mando a distancia?</string>
 	<string id="70041">Asignación de la caché</string>
@@ -233,7 +233,7 @@
 	<string id="40123">Seleccione un tipo de lista:</string>
 	<string id="40124">Remota</string>
 	<string id="40125">Local</string>
-	<string id="40186">Seleccione su lista XML:</string>
+	<string id="40186">Seleccione la lista XML:</string>
 	<string id="40130">Ponga nombre a la lista</string>
 	<string id="40129">La lista se ha añadido correctamente</string>
 	<string id="40127">Introduzca la URL de la lista</string>
@@ -241,7 +241,7 @@
 	<string id="40150">¡La lista se ha borrado correctamente!</string>
 	
 	<!-- favourites.py -->
-	<string id="40145">¡No tiene canales favoritos!</string>
+	<string id="40145">¡No hay canales favoritos!</string>
 	<string id="40148">Se ha añadido a Favoritos correctamente</string>
 	<string id="40147">Se ha borrado de Favoritos correctamente</string>
 	<string id="70022">Añadir manualmente a Favoritos</string>
@@ -252,8 +252,8 @@
 	<string id="40143">Añadir a Favoritos</string>
 	<string id="40146">Borrar de Favoritos</string>
 	<string id="40149">Borrar lista</string>
-	<string id="400009">Borrar parser</string>
-	<string id="400010">Sincronizar parser</string>
+	<string id="400009">Borrar analizador</string>
+	<string id="400010">Sincronizar analizador</string>
 	
 	<!-- utilities.py -->
 	<string id="40188">Quedan:</string>
@@ -271,29 +271,29 @@
 	<string id="40036">Direct URL</string>
 	
 	<!-- parser.py -->	
-	<string id="400011">[B]Añadir plugin de Website-Parser[/B]</string>
+	<string id="400011">[B]Añadir plugin analizador de sitio web[/B]</string>
 	<string id="400012">¿Ruta del plugin?</string>
 	<string id="400013">Seleccione el paquete (.tar.gz)</string>
-	<string id="400014">El parser se ha instalado correctamente</string>
-	<string id="400015">Se ha producido un error durante la instalación del parser</string>
+	<string id="400014">El analizador se ha instalado correctamente</string>
+	<string id="400015">Se ha producido un error durante la instalación del analizador</string>
 	<string id="400016">Introduzca la URL del plugin</string>
 	<string id="400017">No es válido. Es necesaria la extensión .tar.gz</string>
-	<string id="400018">Descargando parser</string>
-	<string id="400019">El parser se ha borrado correctamente</string>
-	<string id="400020">Sincronizando parsers</string>
+	<string id="400018">Descargando analizador</string>
+	<string id="400019">El analizador se ha borrado correctamente</string>
+	<string id="400020">Sincronizando analizadores</string>
 	<string id="400021">Comprobando...</string>
 	<string id="400022">¡Actualizado!</string>
 	<string id="400023">Ya estaba actualizado</string>
-	<string id="400024">Error: la URL del repositorio del parser no es válida</string>
+	<string id="400024">Error: la URL del repositorio del analizador no es válida</string>
 	<string id="400025">Actualizando...</string>
-	<string id="400026">¡El parser se ha actualizado correctamente!</string>
+	<string id="400026">¡El analizador se ha actualizado correctamente!</string>
 	<string id="400027">Descargando script...</string>
 	<string id="400028">El script se ha ejecutado correctamente</string>
 	<string id="70004">Cualquiera de los plugins que se puedan encontrar aquí son de terceros</string>
 	<string id="70005">Ni forman parte de este add-on ni son mantenidos por sus desarrolladores</string>
 	<string id="70006">No pida ni espere ningún tipo de ayuda acerca de ellos</string>
-	<string id="70007">Se han borrado todos los rastros de parsers</string>
-	<string id="70008">Borrar todos los rastros de parsers</string>
+	<string id="70007">Se han borrado todos los rastros de analizadores</string>
+	<string id="70008">Borrar todos los rastros de analizadores</string>
 	
 	
 	<!-- Misc -->	
@@ -310,7 +310,7 @@
 	<string id="40019">Cricket</string>
 	<string id="40020">Ciclismo</string>
 	<string id="40021">Otros</string>
-	<string id="40022">No se han encontrado los enlaces Acestream o Sopcast</string>
+	<string id="40022">No se han encontrado los enlaces AceStream o SopCast</string>
 	<string id="40023">Lista de canales</string>
 	<string id="40024">No se ha encontrado</string>
 	<string id="40077">Inglés</string>
