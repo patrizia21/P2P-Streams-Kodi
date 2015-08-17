@@ -83,7 +83,7 @@
 	<string id="40052">Iniciando...</string>
 	<string id="1104">Esperando respuesta</string>
 	<string id="1001">Conectando</string>
-	<string id="40046">Iniciando el motor de AceStream</string>
+	<string id="40046">Iniciando motor de AceStream</string>
 	<string id="40049">Espera inicial:</string>
 	<string id="40050">segundos</string>
 	<string id="1005">Cargando</string>
@@ -96,7 +96,7 @@
 	<string id="40055">Cargando torrent</string>
 	<string id="1011">No se ha obtenido respuesta</string>
 	<string id="1103">Comprobando datos</string>
-	<string id="1100">Almacenamiento previo en búfer</string>
+	<string id="1100">Almacenamiento preliminar</string>
 	<string id="50010">descarga de flujo</string>
 	<string id="50008">almacenamiento en búfer</string>
 	
